@@ -8,77 +8,73 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Agricultural theme colors */
-    --background: 48 14% 98%;
-    --foreground: 160 8% 12%;
+    /* Modern agricultural theme colors */
+    --background: 210 20% 98%;
+    --foreground: 160 15% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 160 8% 12%;
+    --card-foreground: 160 15% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 160 8% 12%;
+    --popover-foreground: 160 15% 15%;
 
-    /* Deep forest green primary */
-    --primary: 146 64% 28%;
+    /* Rich forest green primary */
+    --primary: 142 76% 36%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 146 45% 45%;
+    --primary-glow: 142 70% 50%;
 
-    /* Earth tone secondary */
-    --secondary: 37 65% 92%;
-    --secondary-foreground: 146 64% 18%;
+    /* Warm earth tone secondary */
+    --secondary: 45 30% 90%;
+    --secondary-foreground: 142 76% 25%;
 
-    /* Muted earth tones */
-    --muted: 45 25% 94%;
-    --muted-foreground: 160 8% 45%;
+    /* Soft muted tones */
+    --muted: 210 20% 95%;
+    --muted-foreground: 160 8% 40%;
 
     /* Fresh green accent */
-    --accent: 120 40% 85%;
-    --accent-foreground: 146 64% 28%;
+    --accent: 120 50% 88%;
+    --accent-foreground: 142 76% 30%;
 
-    /* Warning/alert colors */
-    --destructive: 0 72% 51%;
+    /* Alert colors */
+    --destructive: 0 65% 51%;
     --destructive-foreground: 0 0% 98%;
-    --warning: 43 96% 56%;
-    --warning-foreground: 25 95% 10%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 5%;
 
     /* Success green */
-    --success: 120 60% 40%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 98%;
 
-    /* Border and input styling */
-    --border: 160 15% 88%;
-    --input: 160 15% 88%;
-    --ring: 146 64% 28%;
+    /* Clean borders */
+    --border: 210 20% 85%;
+    --input: 210 20% 88%;
+    --ring: 142 76% 36%;
 
-    /* Agricultural gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-earth: linear-gradient(180deg, hsl(48 14% 98%), hsl(37 35% 95%));
-    --gradient-success: linear-gradient(135deg, hsl(120 60% 40%), hsl(120 45% 55%));
+    /* Beautiful gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 70% 50%));
+    --gradient-earth: linear-gradient(180deg, hsl(210 20% 98%), hsl(45 30% 96%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 60% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(142 76% 30%), hsl(142 70% 40%));
 
-    /* Shadows with earth tones */
-    --shadow-earth: 0 4px 20px hsl(37 20% 20% / 0.1);
-    --shadow-glow: 0 8px 32px hsl(var(--primary) / 0.15);
+    /* Enhanced shadows */
+    --shadow-earth: 0 4px 20px hsl(160 20% 20% / 0.08);
+    --shadow-glow: 0 8px 32px hsl(142 76% 36% / 0.15);
+    --shadow-soft: 0 2px 10px hsl(160 20% 20% / 0.05);
 
-    /* Animations */
+    /* Smooth transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    /* Updated sidebar colors */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 160 15% 15%;
+    --sidebar-primary: 142 76% 36%;
     --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 120 50% 88%;
+    --sidebar-accent-foreground: 142 76% 30%;
+    --sidebar-border: 210 20% 85%;
+    --sidebar-ring: 142 76% 36%;
   }
 
   .dark {

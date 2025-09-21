@@ -121,8 +121,8 @@ const Landing = () => {
   return (
     <div className="min-h-screen bg-gradient-earth">
       {/* Hero Section */}
-      <header className="relative overflow-hidden bg-gradient-primary text-primary-foreground">
-        <div className="absolute inset-0 bg-black/10"></div>
+      <header className="relative overflow-hidden bg-gradient-hero text-primary-foreground">
+        <div className="absolute inset-0 bg-black/5"></div>
         <div className="relative container mx-auto px-6 py-20">
           <div className="text-center space-y-6">
             <div className="flex items-center justify-center gap-3 mb-4">
@@ -267,7 +267,7 @@ const Landing = () => {
 
                   <Button 
                     type="submit" 
-                    className="w-full bg-gradient-primary"
+                    className="w-full bg-gradient-hero hover:shadow-glow"
                     disabled={isLoading}
                   >
                     {isLoading ? 'Processing...' : (isSignUp ? 'Create Account' : 'Sign In')}

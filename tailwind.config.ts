@@ -76,10 +76,12 @@ export default {
         "gradient-primary": "var(--gradient-primary)",
         "gradient-earth": "var(--gradient-earth)",
         "gradient-success": "var(--gradient-success)",
+        "gradient-hero": "var(--gradient-hero)",
       },
       boxShadow: {
         "earth": "var(--shadow-earth)",
         "glow": "var(--shadow-glow)",
+        "soft": "var(--shadow-soft)",
       },
       keyframes: {
         "accordion-down": {

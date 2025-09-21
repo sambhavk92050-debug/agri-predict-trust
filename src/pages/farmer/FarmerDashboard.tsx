@@ -40,7 +40,7 @@ const FarmerDashboard = () => {
             <Shield className="h-3 w-3 mr-1" />
             Data Verified
           </Badge>
-          <Button className="bg-gradient-primary">
+          <Button className="bg-gradient-hero hover:shadow-glow">
             <Sprout className="h-4 w-4 mr-2" />
             Add New Crop
           </Button>
